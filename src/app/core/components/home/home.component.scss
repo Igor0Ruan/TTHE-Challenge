@@ -1,0 +1,36 @@
+section {
+  h1 {
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+  }
+
+  input.search-input {
+    max-width: 300px;
+  }
+
+  .cards-wrapper {
+    .user-card {
+      &.gryffindor {
+        background-color: #861729;
+        color: #F7EE23;
+      }
+
+      &.hufflepuff {
+        background-color: #13181B;
+        color: #CE9431;
+      }
+
+      &.slytherin {
+        background-color: #125F31;
+        color: #E2E3E5;
+      }
+
+      &.ravenclaw {
+        background-color: #5469A2;
+        color: #E6ECEA;
+      }
+    }
+  }
+}
